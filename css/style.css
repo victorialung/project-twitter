@@ -1,0 +1,23 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body{
+font-family: 'Fira Mono', monospace;
+}
+
+header div{
+background-color: #62a9e0;
+text-align: center;
+padding: 12px 35px 45px 35px;
+}
+
+#header-title{
+font-size: 3em;
+color: #fff;
+padding: auto;
+height : 50px;
+}
+
