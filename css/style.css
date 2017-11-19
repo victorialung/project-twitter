@@ -3,11 +3,11 @@ box-sizing: border-box;
 margin: 0;
 padding: 0;
 }
-
+/* body */
 body{
 font-family: 'Fira Mono', monospace;
 }
-
+/* header */
 header div{
 background-color: #62a9e0;
 text-align: center;
@@ -20,4 +20,35 @@ color: #fff;
 padding: auto;
 height : 50px;
 }
+
+/* main */
+
+#container{
+height: 700px;
+padding: 45px;
+column-count: 2;
+column-gap: 20px;
+background-image: url(../assets/img/doctor-who-dalek.jpg);
+background-position: center;
+background-repeat: no-repeat;
+}
+
+/* user-profile */
+
+#user-profile{
+height: 120px;
+padding: 25px;
+background-color: #fff;
+}
+
+/* user-tweets */
+
+#user-tweets{
+height: 120px;
+padding: 25px;
+background-color: #fff;
+}
+
+
+
 
