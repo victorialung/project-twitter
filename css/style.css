@@ -19,6 +19,7 @@ padding: 20px 35px 35px 35px;
 
 #header-title{
 font-size: 3em;
+font-weight: bolder;
 color: #fff;
 padding: auto;
 height : 50px;
@@ -90,13 +91,23 @@ border-bottom: 4px solid #2270A4;
 }
 
 #count-letters{
-color: #2270A4;
 font-size: 1.3em;
 background-color: #fff;
 padding: 10px;
 border-style: none;
 margin-left: 90px;
-display: none;
+}
+
+.first-color{
+color: #2270A4;
+}
+
+.sec-color{
+color: green;
+}
+
+.third-color{
+color: #BF1400;
 }
 
 #btn-tweet{
@@ -110,5 +121,18 @@ font-size: 1.3em;
 font-weight: bolder;
 }
 
+#container-tweets{
+padding: 20px 90px 20px 90px;
+font-size: 22px;
+display: none;
+}
 
-
+/* parent-div */
+.content-tweet{
+height: 80px;
+word-wrap: break-word;
+padding: 10px;
+background-color: #fff;
+border: solid #62a9e0;
+border-radius: 5px;
+}
