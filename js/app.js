@@ -3,6 +3,7 @@ window.addEventListener('load', function() {
   var inputTweet = document.getElementById('input-tweet');
   var containerTweets = document.getElementById('container-tweets');
   var countLetter = document.getElementById('count-letters');
+  countLetter.innerHTML = 140; 
 
   btnTweet.addEventListener('click', function(event) {
     if (inputTweet.value) {
@@ -20,7 +21,6 @@ window.addEventListener('load', function() {
   inputTweet.addEventListener('keypress', function(event) {
     var countingLetters = inputTweet.value.length;
     var maxLetters = 139;
-    countLetter.style.display = 'inline-block';
     countLetter.innerHTML = maxLetters - countingLetters;
     if (countingLetters >= 0 && countingLetters <= 120) {
       btnTweet.disabled = false;

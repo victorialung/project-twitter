@@ -96,6 +96,7 @@ background-color: #fff;
 padding: 10px;
 border-style: none;
 margin-left: 90px;
+color: #2270A4;
 }
 
 .first-color{
@@ -129,10 +130,9 @@ display: none;
 
 /* parent-div */
 .content-tweet{
-height: 80px;
+height: 60px;
 word-wrap: break-word;
-padding: 10px;
+padding: 20px;
 background-color: #fff;
-border: solid #62a9e0;
 border-radius: 5px;
 }
