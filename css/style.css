@@ -2,16 +2,19 @@
 box-sizing: border-box;
 margin: 0;
 padding: 0;
+outline: none;
 }
+
 /* body */
 body{
-font-family: 'Fira Mono', monospace;
+font-family: 'Rokkitt', serif;
 }
+
 /* header */
 header div{
 background-color: #62a9e0;
 text-align: center;
-padding: 12px 35px 45px 35px;
+padding: 20px 35px 35px 35px;
 }
 
 #header-title{
@@ -22,33 +25,62 @@ height : 50px;
 }
 
 /* main */
-
 #container{
-height: 700px;
-padding: 45px;
-column-count: 2;
-column-gap: 20px;
-background-image: url(../assets/img/doctor-who-dalek.jpg);
+position: relative;
+height: 670px;
+padding: 15px 90px 15px 90px;
+background-image: url(../assets/img/studio_ghibli_art.jpg);
+background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
+
 }
 
 /* user-profile */
 
 #user-profile{
-height: 120px;
-padding: 25px;
+display:inline-block;
+margin: 20px;
+padding: 30px 30px 30px 30px;
 background-color: #fff;
+}
+
+#user-profile p{
+width: 500px;
+margin: 8px;
+padding: 15px 10px 20px 15px;
+}
+
+#main-paragraph{
+padding-bottom: 40px;
 }
 
 /* user-tweets */
 
 #user-tweets{
-height: 120px;
-padding: 25px;
+display:inline-block;
+width: 500px;
+padding: 20px;
+margin: 20px;
 background-color: #fff;
 }
 
+#input-tweet{
+width: 70%;
+font-family: 'Rokkitt', serif;
+font-size : 18px;
+}
+
+#btn-tweet{
+border-radius: 5px;
+background-color: #62a9e0;
+font-family: 'Rokkitt', serif;
+color:#fff;
+font-size: 1.3em;
+font-weight: bolder;
+padding: 10px;
+margin: 
+}
 
 
 
